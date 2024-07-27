@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+/* Reset some default styles */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: relative; /* Set position to relative */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center the text horizontally */
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Dashboard section styling */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Logout button styling */
+#logout-button {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+#logout-button:hover {
+    background-color: #555;
+}
+
+
+
+
+
